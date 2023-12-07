@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(80deg, #053B50, #176B87) ;
+}
+
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background: #102C57;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+}
+
+.stopwatch h1{
+    font-size: 64px;
+    margin-top: 60px;
+    font-weight: 300;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.buttons img:nth-child(2){
+    width: 80px;
+}
